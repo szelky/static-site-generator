@@ -24,7 +24,6 @@ def main() -> None:
 
 def copy_static_to_public(src: str, dst: str) -> None:
     ls_src = os.listdir(src)
-    x = 1
     if not os.path.exists(dst):
         os.mkdir(dst)
     for item in ls_src:
